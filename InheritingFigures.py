@@ -30,6 +30,9 @@ class Cuboid():
         self.base = figure
         self.height = height
 
+    def count_area(self):
+        return self.base.count_area() * 2 + (self.height * 2)*(self.base.x + self.base.y)
+
     def count_volume(self):
         return self.base.count_area() * self.height
 
