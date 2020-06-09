@@ -35,4 +35,3 @@ class Cuboid():
 
     def count_volume(self):
         return self.base.count_area() * self.height
-
